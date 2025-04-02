@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "lib": ["ES2021", "DOM"],
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "noEmitOnError": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "strict": false,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "incremental": true,
+      "isolatedModules": true
+    },
+    "include": ["src/**/*.ts", "src/db"],
+    "exclude": ["node_modules"]
+  }
